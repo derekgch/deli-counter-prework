@@ -27,5 +27,11 @@ end
 #now_serving there are no people in line should say that the line is empty
 #now_serving there are people in line should serve the first person in line and remove them from the queue
 
-def now_serving()
+def now_serving(array)
+  if array.size >0
+
+  else
+    puts "There is nobody waiting to be served!"
+  end
+
 end
