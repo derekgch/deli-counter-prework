@@ -2,7 +2,7 @@
 
 #line there is nobody in line should say the line is empty
 #line there are people in line should display the current line
-def line(arrary)
+def line(array)
   if array.size >0
     str = "The line is currently:"
     array.each_with_index do |name,index|
