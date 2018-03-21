@@ -8,10 +8,11 @@ def line(arrary)
     array.each_with_index do |name,index|
       str += " #{index+1}. #{name}"
     end
+    puts str
   else
     puts "The line is currently empty."
   end
-  
+
 end
 
 #take_a_number there is nobody in line should add a person to the line
