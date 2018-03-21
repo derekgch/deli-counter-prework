@@ -20,7 +20,8 @@ end
 #take_a_number adding multiple people in a row should correctly build the line
 
 def take_a_number(array,element)
-  array.push(element)
+  index = array.push(element)  
+  puts "Welcome, #{element}. You are number #{index} in line.""
 end
 
 #now_serving there are no people in line should say that the line is empty
