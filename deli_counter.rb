@@ -3,6 +3,15 @@
 #line there is nobody in line should say the line is empty
 #line there are people in line should display the current line
 def line(arrary)
+  if array.size >0
+    str = "The line is currently:"
+    array.each_with_index do |name,index|
+      str += " #{index+1}. #{name}"
+    end
+  else
+    puts "The line is currently empty."
+  end
+  
 end
 
 #take_a_number there is nobody in line should add a person to the line
